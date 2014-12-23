@@ -33,7 +33,7 @@ int life;
     }
     if (ballY>height-r){
       ballX=bar.barX;
-      ballY=bar.barY-5;
+      ballY=bar.barY-20;
     }
     
     float bottom = ballY+r;
