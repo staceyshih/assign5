@@ -221,6 +221,13 @@ void reset() {
 }
 
 
+void mouseClicked(){
+  if(mouseButton==RIGHT){
+  status = GAME_PLAYING;
+  
+  }
+}
+
 void statusCtrl() {
   if (key == ENTER) {
     switch(status) {
